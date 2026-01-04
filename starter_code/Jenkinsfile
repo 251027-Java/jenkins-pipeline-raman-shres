@@ -57,7 +57,7 @@ pipeline {
     post {
         success {
             echo '✅ Pipeline completed successfully!'
-            echo "Artifact: target/*.jar"
+            echo "Artifact: starter_code/target/*.jar"
         }
         failure {
             echo '❌ Pipeline failed! Check the logs above for errors.'
